@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 400
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+h1,
+h2,
+h3 {
+  color: #C69749;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0;
+}
+
+p {
+  color: #918b96;
+}
+
+hr {
+  margin: 36px 0;
+  border-top: 0.5px #51430f solid;
+  opacity: 30%;
+}
+
+::placeholder {
+  color: #ffffff72;
+}
+
+/* ===== HEADER ===== */
+
+header .container {
+  background-color: #16161885;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 0;
+  /*   position: relative; */
+}
+
+header nav li {
+  display: inline;
+  font-size: 16px;
+  margin-left: 24px;
+}
+
+header nav li a {
+  cursor: pointer;
+  color: #C69749;
+  letter-spacing: 2px;
+}
+
+header nav li a:hover {
+  cursor: pointer;
+  color: rgb(217, 195, 139);
+  font-weight: 500;
+}
+
+/* ===== CONTAINER_BACKGROUND ===== */
+
+.container_background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px 27px;
+  gap: 18px;
+}
+
+.container_background p {
+  text-align: justify;
+}
+
+/* ===== CONTAINER_IMAGE ===== */
+
+.container_image {
+  margin: 18px 27px;
+}
+
+.container_image h2 {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0;
+}
+
+.container_image_imgs {
+  position: relative;
+}
+
+.container_image_imgs img {
+  width: 100%;
+}
+
+.container_image_imgs:hover {
+  cursor: pointer;
+
+}
+
+.container_image_imgs ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ===== CONTAINER_ATUAÇÃO ===== */
+
+.container_atuacao {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.atuacao_li {
+  border: 1px dotted #C69749;
+  padding: 18px;
+  margin: 9px 0;
+  color: #918b96;
+}
+
+.atuacao_li li {
+  margin-bottom: 9px;
+}
+
+/*  ===== FORMULÁRIO ===== */
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #c69649a3;
+  color: #000000;
+  border-radius: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+  border-radius: 4px;
+  letter-spacing: 1.5px;
+}
+
+section h3 {
+  margin-bottom: 16px;
+}
+
+form button {
+  background-color: #c69649a3;
+  color: #ffffff72;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #35343495;
+  color: #c69649a3;
+  transition: transform 1s;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #c69649a3;
+}
+
+.form_map {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px;
+}
+
+iframe {
+  opacity: 90%;
+  border-radius: 9px;
+}
+
+iframe:hover {
+  opacity: 100%;
+}
+
+
+/*  ===== REDES SOCIAIS / ENDEREÇO ===== */
+
+.social-links img {
+  height: 36px;
+}
+
+.social-links a {
+  color: #c69649a3;
+}
+
+.social-links a:hover {
+  color: #c6964967;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 36px;
+}
+
+.redes_sociais {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.redes_sociais p {
+  color: #c69649a3;
+  font-size: 18px;
+}
+
+/*  ===== RODAPÉ ===== */
+
+footer {
+  background-color: #c6964967;
+  padding: 18px 0;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+}
